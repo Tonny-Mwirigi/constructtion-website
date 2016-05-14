@@ -1,0 +1,121 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Lucida Grande', Helvetica, sans-serif;
+    background: #c06000;
+    color: #999;
+    padding: 20px;
+}
+
+* .contact {
+
+}
+
+.main {
+
+    background-color: #0b97c4;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+.services {
+    border: 1px solid;
+    border-bottom-color: #009900; /* Green */
+    border-top-color: #FF0000; /* Red */
+    border-left-color: #330000; /* Black */
+    border-right-color: #0000CC; /* Blue */
+
+}
+
+.about {
+    border: 1px solid;
+    border-bottom-color: #009900; /* Green */
+    border-top-color: #FF0000; /* Red */
+    border-left-color: #330000; /* Black */
+    border-right-color: #0000CC; /* Blue */
+
+}
+
+.contact {
+    border-bottom-width: 4px;
+    border-top-width: 10px;
+    border-left-width: 2px;
+    border-right-width: 15px;
+    border-style: solid;
+    position: absolute;
+
+    background-color: #2e2e2e;
+
+}
+
+a:link {
+    color: #000000
+}
+
+a:visited {
+    color: #006600
+}
+
+a:hover {
+    color: #FFCC00
+}
+
+a:active {
+    color: #FF00CC
+}
